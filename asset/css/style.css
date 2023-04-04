@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Hollow&family=Kaushan+Script&family=Poppins:wght@100&family=Press+Start+2P&display=swap');
+/* 1- GESTION DU MENU */
+
+/*
+J'ai utilisé les polices Blaka Hollow, poppins et Kaushan
+*/
+
+#monMenu{
+    background-color: rgba(0,0,0,.55);
+    font-family: Poppins,serif;
+    box-shadow: 1px 1px 3px rgba(255,255,255,.55);
+    z-index: 99;
+}
+
+/* Pour gerer le bouton qui contient le num */
+#btn-tel:hover,
+#btn-tel:active{
+    color: #fff;
+    font-family: Kaushan,serif;
+    background-color: #00F260;
+    border-color: #00F260;
+    transition: 1000ms;
+}
+
+
+/* 2-  GESTION DU BANNER */
+.mybanner{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/banner_img.webp) center center fixed no-repeat;
+    height: 700px;
+    background-size: cover;
+}
+
+.monTitre{
+    font-size: 60px;
+    color: #fff;
+    font-family:Blaka Hollow,serif;
+}
+
+
+
+/* 5- GESTION  RESERVATION */
+.reservation{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/reservation\ banner.jpg) center center fixed no-repeat;
+    font-family:Kaushan,serif;
+    height: 1200px;
+}
+
+/* Gestion de la partie contact */
+
+.joindre{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/reservation\ banner.jpg) center center fixed no-repeat;
+    height: 400px;
+}
